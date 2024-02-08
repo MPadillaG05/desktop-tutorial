@@ -1,3 +1,7 @@
 Hola Mundo
 
 Estoy en otra maquina utilizando Git!!! :)
+
+Ahora quiero aumentar más texto a este archivo
+
+Soy Mario Padilla y este es mi texto casi terminado
