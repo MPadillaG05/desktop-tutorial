@@ -1,0 +1,9 @@
+Hola Mundo,
+
+Actualmente estoy creando un archivo ".txt" para probar Git.
+
+Me encuentro muy emocionado por esta nueva aventura, sé que no será facil, pero lograré aprender lo más posible.
+
+Saludos,
+
+Mario Padilla
