@@ -4,6 +4,8 @@ Actualmente estoy creando un archivo ".txt" para probar Git.
 
 Me encuentro muy emocionado por esta nueva aventura, sé que no será facil, pero lograré aprender lo más posible.
 
+Estoy modificando por primera vez este archivo.
+
 Saludos,
 
 Mario Padilla
