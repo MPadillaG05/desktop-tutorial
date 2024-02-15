@@ -13,7 +13,10 @@ span{
     font-weight: bold;
 }
 img{
-    width: 100px;
+    width: 68px;
+    height: 60px;
+    margin-top: 10px;
+    display: block;
 }
 .container .cabecera{
     background-color: blue;
@@ -24,4 +27,7 @@ img{
 }
 .container .post{
     padding-left: 10px;
+}
+.container .post .grupo-subcabecera{
+    display: flex;
 }
