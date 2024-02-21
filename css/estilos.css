@@ -1,33 +1,77 @@
 body{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .container{
     border: 1px solid;
-    border-color: lightblue;
+    border-color:#0382FA;
+    border-radius: 10px;
     width: 500px;
     margin: auto;
-}
-span{
-    color: darkorange;
-    font-weight: bold;
+    margin-top: 100px;
 }
 img{
     width: 68px;
     height: 60px;
     margin-top: 10px;
     display: block;
+    margin-right: 10px;
 }
 .container .cabecera{
-    background-color: blue;
+    background-color: #0382FA;
     padding: 10px;
     color: white;
     font-weight: bold;
-    box-shadow: 0px 2px 20px 0px rgb(0, 0, 0,0.5);
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px 0px rgb(0, 0, 0,0.3);
+    text-align: center;
 }
+.container .cabecera span{
+    color: #ffec3b;
+}
+
 .container .post{
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container .post span{
+    color: #0382FA;
+    font-weight: bold;
+}
+.container .post span:hover{
+    color: #cb2e81;
 }
 .container .post .grupo-subcabecera{
     display: flex;
+    justify-content: center;
+}
+.container .post .grupo-subcabecera h1{
+    text-shadow: 2px 2px 3px rgba(0,0,0, 0.2);
+}
+.container .post p{
+    text-align: justify;
+}
+.container .btn-empezar{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container .btn-empezar a{
+    padding: 10px 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #0382FA;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+.container .btn-empezar a:hover{
+    background-color: white ;
+    color: black;
+    box-shadow: 1px 1px 1px 1px rgb(3, 130, 250,0.5);
 }
