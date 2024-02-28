@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.row-1{
+    
+}
+.row-1 header{
+    display: flex;
+    background-color: #c7201c;
+    color: white;
+    height: 40px;
+    justify-content: end;
+}
+.row-1 .header-1{
+    background-color: #e30025;
+    padding: 25px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+.row-1 .header-1 img{
+    
+    display: block;/*Me quita el espacio inferior de la img*/
+    width: 60px;
+} 
+.row-1 header .group-header{
+    display: flex;
+}
+.row-1 header .group-header .header-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+.row-1 header .group-header .header-2 a{
+    padding: 8px 20px 8px 20px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 15px;
+    background-color: #7a1311;
+    border-radius: 20px;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.row-1 header .group-header .header-2 a:hover{
+    background-color: white;
+    color: #7a1311;
+}
+.row-1 header .group-header .header-3{    
+}
+.row-1 header .group-header .header-3 ul{
+    display: flex;
+    list-style: none;
+    
+}
+.row-1 header .group-header .header-3 ul li{
+    margin: 10px;
+    
+}
+.row-1 header .group-header .header-3 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-left: 3px;
+    margin-right: 15px;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.row-1 header .group-header .header-3 ul li a:hover{
+    text-decoration: underline;
+}
+.row-1 header .group-header .header-3 ul li i{
+    font-size: 12px;
+}
+.row-1 header .group-header .header-4{
+    margin-right: 60px;
+}
+.row-1 header .group-header .header-4 ul{
+    display: flex;
+    list-style: none;
+}
+.row-1 header .group-header .header-4 ul li{
+    margin: 10px;
+}
+.row-1 header .group-header .header-4 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: #7a1311;
+    border-radius: 20px;
+}
+.row-1 header .group-header .header-4 ul li a:hover{
+    background-color: white;
+    color: #7a1311;
+}
+@media (max-width:1046px) {
+    .row-1 .header-1{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:1000px) {
+    .row-1 header .group-header .header-3{
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .row-1 header{
+        display: none;
+    }
+}
